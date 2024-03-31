@@ -128,7 +128,7 @@
                 case 'Amortiguacion':
                     return {
                 pane: 'pane_experimento3_2',
-                opacity: 1,
+                opacity: 0.5,
                 color: 'rgba(35,35,35,1.0)',
                 dashArray: '',
                 lineCap: 'butt',
@@ -143,7 +143,7 @@
                 case 'Nucleo':
                     return {
                 pane: 'pane_experimento3_2',
-                opacity: 1,
+                opacity: 0.5,
                 color: 'rgba(35,35,35,1.0)',
                 dashArray: '',
                 lineCap: 'butt',
@@ -158,7 +158,7 @@
                 case 'Transicion':
                     return {
                 pane: 'pane_experimento3_2',
-                opacity: 1,
+                opacity: 0.5,
                 color: 'rgba(35,35,35,1.0)',
                 dashArray: '',
                 lineCap: 'butt',
@@ -294,7 +294,7 @@
         document.getElementsByClassName('leaflet-control-geocoder-icon')[0]
         .title += 'Search for a place';
         var baseMaps = {};
-        L.control.layers(baseMaps,{'<img src="legend/rios_4.png" /> rios': layer_rios_4,'<img src="legend/centrospoblados_3.png" /> centros poblados': layer_centrospoblados_3,'experimento 3<br /><table><tr><td style="text-align: center;"><img src="legend/experimento3_2_Amortiguacion0.png" /></td><td>Amortiguacion</td></tr><tr><td style="text-align: center;"><img src="legend/experimento3_2_Nucleo1.png" /></td><td>Nucleo</td></tr><tr><td style="text-align: center;"><img src="legend/experimento3_2_Transicion2.png" /></td><td>Transicion</td></tr></table>': layer_experimento3_2,"OpenStreetMap": layer_OpenStreetMap_1,"Google Satellite": layer_GoogleSatellite_0,}).addTo(map);
+        L.control.layers(baseMaps,{'<img src="legend/rios_4.png" /> Ríos': layer_rios_4,'<img src="legend/centrospoblados_3.png" /> Centros Poblados': layer_centrospoblados_3,'RBA<br /><table><tr><td style="text-align: center;"><img src="legend/experimento3_2_Amortiguacion0.png" /></td><td>Amortiguacion</td></tr><tr><td style="text-align: center;"><img src="legend/experimento3_2_Nucleo1.png" /></td><td>Nucleo</td></tr><tr><td style="text-align: center;"><img src="legend/experimento3_2_Transicion2.png" /></td><td>Transicion</td></tr></table>': layer_experimento3_2,"OpenStreetMap": layer_OpenStreetMap_1,"Google Satellite": layer_GoogleSatellite_0,}).addTo(map);
         setBounds();
         </script>
     </body>
