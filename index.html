@@ -189,6 +189,7 @@
         function pop_centrospoblados_3(feature, layer) {
             var popupContent = '<table>\
                     <tr>\
+                 <th scope="row">Comuna</th>\
                         <td colspan="2">' + (feature.properties['Localidad'] !== null ? autolinker.link(feature.properties['Localidad'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
