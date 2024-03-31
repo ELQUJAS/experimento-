@@ -191,12 +191,12 @@
                     <tr>\
                  <th scope="row">Comuna</th>\
                    <td>' +  ":" + '</td>\
-                        <td colspan="2">' + (feature.properties['Localidad'] !== null ? autolinker.link(feature.properties['Localidad'].toLocaleString()) : '') + '</td>\
+                        <td colspan="1">' + (feature.properties['Localidad'] !== null ? autolinker.link(feature.properties['Localidad'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
                  <th scope="row">Tipo</th>\
                    <td>' +  ":" + '</td>\
-                        <td colspan="2">' + (feature.properties['Entidad'] !== null ? autolinker.link(feature.properties['Entidad'].toLocaleString()) : '') + '</td>\
+                        <td colspan="1">' + (feature.properties['Entidad'] !== null ? autolinker.link(feature.properties['Entidad'].toLocaleString()) : '') + '</td>\
                     </tr>\
                 </table>';
             layer.bindPopup(popupContent, {maxHeight: 400});
