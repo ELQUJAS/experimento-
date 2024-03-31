@@ -190,9 +190,12 @@
             var popupContent = '<table>\
                     <tr>\
                  <th scope="row">Comuna</th>\
+                   <td>' +  ":" + '</td>\
                         <td colspan="2">' + (feature.properties['Localidad'] !== null ? autolinker.link(feature.properties['Localidad'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
+                 <th scope="row">Tipo</th>\
+                   <td>' +  ":" + '</td>\
                         <td colspan="2">' + (feature.properties['Entidad'] !== null ? autolinker.link(feature.properties['Entidad'].toLocaleString()) : '') + '</td>\
                     </tr>\
                 </table>';
