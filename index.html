@@ -115,7 +115,7 @@
                     <tr>\
                  <th scope="row">Zona</th>\
                             <td>' + ":" + '</td>\
-                        <td colspan="2">' + (feature.properties['Zona'] !== null ? autolinker.link(feature.properties['Zona'].toLocaleString()) :'' ) + '</td>\
+                        <td>' + (feature.properties['Zona'] !== null ? autolinker.link(feature.properties['Zona'].toLocaleString()) :'' ) + '</td>\
                     </tr>\
                 </table>';
             layer.bindPopup(popupContent, {maxHeight: 400});
